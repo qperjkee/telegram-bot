@@ -1,5 +1,5 @@
 import telebot
-bot = telebot.TeleBot('1609593294:AAHbxrlNmME5KHxpGGlfOrpJMkOr5bPMz0c')
+bot = telebot.TeleBot()
 keyboard1 = telebot.types.ReplyKeyboardMarkup()
 @bot.message_handler(commands=['start'])
 def start_message(message):
